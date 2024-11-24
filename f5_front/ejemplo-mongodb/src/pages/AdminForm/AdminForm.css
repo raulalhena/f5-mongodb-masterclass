@@ -1,0 +1,50 @@
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+input {
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #999;
+  font-weight: 900;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
+select {
+  padding: 20px;
+  border-radius: 8px;
+  width: 290px;
+  border: 1px solid #999;
+  font-weight: 900;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
+select option { 
+  color: #999; 
+}
+
+select option:first-child{
+  color: #999;
+}
+
+button {
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #999;
+  background-color: orange;
+  font-weight: 900;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+}
